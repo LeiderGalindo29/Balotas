@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+*{  
+    font-family: 'Merriweather', serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/baloto-img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 85vw;
+    padding: 1em;
+}   

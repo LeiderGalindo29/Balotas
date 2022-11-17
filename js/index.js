@@ -46,52 +46,44 @@ function startAnimation(id, duration, min, max) {
     }
 }, 100);
 }*/
-let s1 = document.querySelector(".seleccion1");
-let s2 = document.querySelector(".seleccion2");
-let s3 = document.querySelector(".seleccion3");
-let s4 = document.querySelector(".seleccion4");
-let s5 = document.querySelector(".seleccion5");
-let s6 = document.querySelector(".seleccion6");
-
-let seleccion1 = parseInt(s1.value);
-let seleccion2 = parseInt(s2.value);
-let seleccion3 = parseInt(s3.value);
-let seleccion4 = parseInt(s4.value);
-let seleccion5 = parseInt(s5.value);
-let seleccion6 = parseInt(s6.value);
-
-let random = Math.floor(Math.random() * 9);
-let random1 = Math.floor(Math.random() * 9);
-let random2 = Math.floor(Math.random() * 9);
-let random3 = Math.floor(Math.random() * 9);
-let random4 = Math.floor(Math.random() * 9);
-let random5 = Math.floor(Math.random() * 9);
-
-console.log(random)
 
 function Aleatorio() {
+
+let slc5 = document.querySelector(".seleccion5");
+let slc6 = document.querySelector(".seleccion6");
+
+let seleccion5 = parseInt(slc5.value);
+let seleccion6 = parseInt(slc6.value);
+
+let aleatory = Math.floor(Math.random() * 9);
+let aleatory1 = Math.floor(Math.random() * 9);
+let aleatory2 = Math.floor(Math.random() * 9);
+let aleatory3 = Math.floor(Math.random() * 9);
+let aleatory4 = Math.floor(Math.random() * 9);
+let aleatory5 = Math.floor(Math.random() * 9);
+
     setTimeout(() => {
-        document.querySelector(".balota-1").textContent = `${random}`;
+        document.querySelector(".balota-1").textContent = `${aleatory}`;
     }, 1000);
     setTimeout(() => {
-        document.querySelector(".balota-2").textContent = `${random1}`;
+        document.querySelector(".balota-2").textContent = `${aleatory1}`;
     }, 2000);
     setTimeout(() => {
-        document.querySelector(".balota-3").textContent = `${random2}`;
+        document.querySelector(".balota-3").textContent = `${aleatory2}`;
     }, 3000);
     setTimeout(() => {
-        document.querySelector(".balota-4").textContent = `${random3}`;
+        document.querySelector(".balota-4").textContent = `${aleatory3}`;
     }, 4000);
     setTimeout(() => {
-        document.querySelector(".balota-5").textContent = `${random4}`;
+        document.querySelector(".balota-5").textContent = `${aleatory4}`;
     }, 5000);
     setTimeout(() => {
-        document.querySelector(".balota-6").textContent = `${random5}`;
+        document.querySelector(".balota-6").textContent = `${aleatory5}`;
     }, 6000);
 
     setTimeout(() => {
-        if (seleccion1 == random && seleccion2 == random1 && seleccion3 == random2 && seleccion4 == random3 && seleccion5 == random4 && seleccion6 == random5) {
-        alert(" Has Ganado las balota")
+        if (seleccion5 == aleatory4 && seleccion6 == aleatory5) {
+        alert(" Has Ganado la balota")
     }
     else (
         alert("Has perdido")         

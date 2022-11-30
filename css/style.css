@@ -49,33 +49,30 @@
     background-image: url(../img/Balota.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'gotham-medium';
     font-weight: bold;
     width: 6em;
     filter: drop-shadow(-3px 11px 8px rgba(0, 0, 0, 0.7));
     text-align: center;
-    padding-top: 1em;
+    padding-top: 1.4em;
 }
 .balota-2{
     background-image: url(../img/Balota.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'gotham-medium';
     font-weight: bold;
     width: 6em;
     height: 5em;
     filter: drop-shadow(-3px 11px 8px rgba(0, 0, 0, 0.7));
     text-align: center;
-    padding-top: 1em;
+    padding-top: 1.4em;
 }
 .balota-3{
     background-image: url(../img/Balota.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'gotham-medium';
     font-weight: bold;
     width: 6em;
-    height: 5em;padding-top: 1em;
+    height: 5em;padding-top: 1.4em;
     text-align: center;
     filter: drop-shadow(-3px 11px 8px rgba(0, 0, 0, 0.7));
 }
@@ -84,35 +81,32 @@
     background-image: url(../img/Balota.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'gotham-medium';
     font-weight: bold;
     width: 6em;
     filter: drop-shadow(-3px 11px 8px rgba(0, 0, 0, 0.7));
     height: 5em;
-    text-align: center;padding-top: 1em;
+    text-align: center;padding-top: 1.4em;
 }
 
 .balota-5{
-    background-image: url(../img/Balota.png);
+    background-image: url(../img/balota-roja.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'gotham-medium';
     font-weight: bold;
     filter: drop-shadow(-3px 11px 8px rgba(0, 0, 0, 0.7));
-    width: 6em;
-    height: 5em;padding-top: 1em;
+    width: 6.6em;
+    height: 5em;padding-top: 1.4em;
     text-align: center;
 }
 
 .balota-6{
-    background-image: url(../img/Balota.png);
+    background-image: url(../img/balota-roja.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'gotham-medium';
     font-weight: bold;
     filter: drop-shadow(-3px 11px 8px rgba(0, 0, 0, 0.7));
-    width: 6em;
-    height: 5em;padding-top: 1em;
+    width: 6.6em;
+    height: 5em;padding-top: 1.4em;
     text-align: center;
 }
 .animate__animated {

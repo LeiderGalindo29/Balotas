@@ -161,3 +161,28 @@ input{
     border-radius: 7px;
     margin: 7px;
 }
+
+input.seleccion1 {
+    background-color: yellow;
+    font-weight: bold;
+}
+input.seleccion2 {
+    background-color: yellow;
+    font-weight: bold;
+}
+input.seleccion3 {
+    background-color: yellow;
+    font-weight: bold;
+}
+input.seleccion4 {
+    background-color: yellow;
+    font-weight: bold;
+}
+input.seleccion5 {
+    background-color: red;
+    font-weight: bold;
+}
+input.seleccion6 {
+    background-color: red;
+    font-weight: bold;
+}

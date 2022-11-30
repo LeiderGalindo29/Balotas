@@ -8,45 +8,6 @@ function startContest() {
     startAnimation('balota-6', 6000, 1, 16);
 }
 
-/*
-function startAnimation(id, duration, min, max) {
-    const campos = {
-    1: false,
-    2: false,
-    3: false,
-    4: false,
-    5: false,
-    6 : false,
-}
-  const output = document.querySelectorAll("#id");
-  output.classList.remove('animate__animated animate__heartBeat');
-  let campo
-  let output = document.getElementById(`balota-${campo}`).classList.remove('animate__animated animate__heartBeat');
-  const started = new Date().getTime();
-  campos[campo] = true;
-*/
-// Animate!
-/*const animationTimer = setInterval(function() {
-    // If the value is what we want, stop animating
-    // or if the duration has been exceeded, stop animating
-    const result = output.text().trim();
-    if (new Date().getTime() - started > duration && !results.includes(result)) {
-        results.push(result);
-        clearInterval(animationTimer);
-        output.addClass('animate__animated animate__heartBeat');
-        if (results.length >= 6) {
-            results = [];
-        }
-    } else {
-        let number = Math.floor(Math.random() * (max - min) + min);
-        if (number <= 9) {
-            number = '0'+number;
-        }
-        output.text(number);
-    }
-}, 100);
-}*/
-
 function Aleatorio() {
 
 let slc5 = document.querySelector(".seleccion5");
@@ -89,8 +50,5 @@ let aleatory5 = Math.floor(Math.random() * 9);
         alert("Has perdido")         
     )
     }, 7000);
-    
-
-
 }
 
